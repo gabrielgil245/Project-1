@@ -1,0 +1,9 @@
+As an employer, I want to see what my candidate 
+    has achieved, so that I can gauge their skill set.
+
+As a fan, I want to sign up to their mailing list, so that
+    I can be updated to the author's project(s) progression.
+
+As a video game enthusiast, I want to at least read and view
+    the creator's game projects, so that I may determine my
+    interest in their projects.
