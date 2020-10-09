@@ -1,4 +1,36 @@
-#myHeader
+.centerText
 {
     text-align: center;
+}
+
+.centerBlock
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.navItems
+{
+    padding-right: 2em;
+    padding-left: 2em;
+}
+
+.items
+{
+    padding: 1em;   
+}
+
+#img-banner
+{
+    padding: 1em;
+}
+
+#comments
+{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
 }

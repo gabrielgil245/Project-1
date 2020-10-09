@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head lang="en-US">
+        <link rel="stylesheet" href="css\style.css" />
+    </head>
+    <body>
+        <header>
+            <h1 id="myHeader" class="centerText">Good Games Gabe Inc.</h1>
+        </header>
+        <nav id="navigationBar" class="centerText">
+            <div>
+                <span class="navItems"><a href="index.html">Mission</a></span>
+                <span class="navItems"><a href="projects.html">Projects</a></span>
+                <span class="navItems"><a href="contact.html">Contact</a></span>
+            </div>
+        </nav>
+        <fieldset id="container" class="centerBlock">
+            <legend>Contact Information:</legend>
+            <form action="https://formspree.io/f/xvovzdjd" 
+                method="post"class="items">
+                <p><label for="firstName" class="items">First name:</label>
+                <input type="text" class="textFields" name="firstName" required></p>
+                <p><label for="lastName" class="items">Last name:</label>
+                <input type="text" class="textFields" name="lastName" required></p>
+                <p><label for="email" class="items">Email:</label>
+                <input type="email" class="textFields" name="email" required></p>
+                <p><label for="comments" class="items">Comments:</label></p>
+                <p><textarea id="comments" name="comments" maxlength="250" rows="4" 
+                    cols="100" placeholder="Feedback is welcomed. 250 characters maximum..."></textarea></p>
+                <input type="submit" value="Submit" style="float: right;" />
+            </form>            
+        </fieldset>
+    </body>
+</html>
