@@ -1,3 +1,4 @@
+/*
 let slideInterval = 4000;
 
 function getFigures()
@@ -30,3 +31,4 @@ function startPlayBack()
 }
 
 startPlayBack();
+*/
