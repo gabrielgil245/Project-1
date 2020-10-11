@@ -21,12 +21,20 @@
     padding: 1em;   
 }
 
+#comments
+{
+    display: block;
+    margin: auto;
+    width: 90%;
+}
+
 section#slideshow > figure > img
 {
     padding: 1em;
     display: none;
     margin: auto;
-    width: 50%;
+    width: 33%;
+    height: 33%;
 }
 
 section#slideshow > figure.visible > img
@@ -36,10 +44,20 @@ section#slideshow > figure.visible > img
     overflow: hidden;
 }
 
-#comments
+section#slideshow > figure > figcaption
 {
-    display:block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 90%;
+    padding: 1em;
+    display: none;
+    padding: 0em;
+    margin: auto;
+    width: 50%;
 }
+
+section#slideshow > figure.visible > figcaption
+{
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+

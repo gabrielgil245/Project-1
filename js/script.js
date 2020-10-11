@@ -1,4 +1,4 @@
-var slideInterval = 3000;
+let slideInterval = 4000;
 
 function getFigures()
 {
@@ -8,9 +8,9 @@ function getFigures()
 
 function moveForward()
 {
-    var pointer;
-    var figures = getFigures();
-    for (var index = 0; index < figures.length; index++)
+    let pointer;
+    let figures = getFigures();
+    for (let index = 0; index < figures.length; index++)
     {
         if(figures[index].className == "visible")
         {
@@ -18,7 +18,8 @@ function moveForward()
             pointer = index;
         }
     }
-    if(++pointer == figures.length) {pointer = 0;}
+    pointer++;
+    if(pointer == figures.length) {pointer = 0;}
     figures[pointer].className = "visible";
     startPlayBack();
 }
