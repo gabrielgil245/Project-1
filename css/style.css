@@ -6,8 +6,7 @@
 .centerBlock
 {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
     width: 50%;
 }
 
@@ -22,9 +21,19 @@
     padding: 1em;   
 }
 
-#img-banner
+section#slideshow > figure > img
 {
     padding: 1em;
+    display: none;
+    margin: auto;
+    width: 50%;
+}
+
+section#slideshow > figure.visible > img
+{
+    display: block;
+    position: relative;
+    overflow: hidden;
 }
 
 #comments
