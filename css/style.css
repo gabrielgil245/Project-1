@@ -10,13 +10,23 @@
     width: 50%;
 }
 
-.navItems
+.container
 {
-    padding-right: 2em;
-    padding-left: 2em;
+    display: flex;
+    border: 2px solid black;
 }
 
-.items
+.images
+{
+    max-width: 50%;
+}
+
+.rightSideImage
+{
+    float: right;
+}
+
+.fieldItems
 {
     padding: 1em;   
 }
