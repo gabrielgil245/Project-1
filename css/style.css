@@ -36,12 +36,7 @@ body
     font-size: 3em;
 }
 
-.centerText
-{
-    text-align: center;
-}
-
-.centerBlock
+.centerBlock, #comments
 {
     display: block;
     margin: auto;
@@ -77,36 +72,20 @@ legend
     font-size: 1.15em;
 }
 
-#comments
-{
-    display: block;
-    margin: auto;
-    width: 90%;
-}
-
-.carousel-inner
-{
-    text-align: center;
-}
-
 .carousel .item > img
 {
     display: inline-block;
 }
 
-.carousel-control-prev
+.centerText, .carousel-inner
 {
-    border: 2px solid whitesmoke;
+    text-align: center;
 }
 
-.carousel-control-next
+.carousel-control-prev, .carousel-control-next
 {
     border: 2px solid whitesmoke;
-}
-
-.carousel-caption
-{
-    font-size: 5000px;
+    height: 98%;
 }
 
 #backToTheTop
