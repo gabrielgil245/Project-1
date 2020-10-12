@@ -1,3 +1,41 @@
+#myHeader
+{
+    font-family: "Lucidai Console", monospace;
+    -webkit-text-stroke-width: 0.035em;
+    -webkit-text-stroke-color: black;
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: 5em;
+
+}
+
+#navigationBar
+{
+    font-weight: bold;
+    font-size: 2em;
+    border: 0.01em solid whitesmoke;
+}
+
+body
+{
+    background: silver;
+    font-family: monospace;
+    font-size: 1.25em;
+}
+
+#description
+{
+    margin: auto;
+    width: 65%;
+    font-size: 1.25em;
+}
+
+.projectTitle
+{
+    font-weight: bold;
+    font-size: 3em;
+}
+
 .centerText
 {
     text-align: center;
@@ -7,13 +45,13 @@
 {
     display: block;
     margin: auto;
-    width: 50%;
+    width: 90%;
 }
 
 .container
 {
     display: flex;
-    border: 2px solid black;
+    padding: 1em;
 }
 
 .images
@@ -26,9 +64,17 @@
     float: right;
 }
 
+legend
+{
+    font-weight: bold;
+    font-size: 2em;
+}
+
 .fieldItems
 {
-    padding: 1em;   
+    padding: 1em;
+    font-weight: bold;
+    font-size: 1.15em;
 }
 
 #comments
@@ -48,19 +94,23 @@
     display: inline-block;
 }
 
-section#carousel > div > figure > img
+.carousel-control-prev
 {
-    padding: 1em;
-    margin: auto;
-    width: 66%;
-    height: 66%;
+    border: 2px solid whitesmoke;
 }
 
-section#carousel > div > figure > figcaption
+.carousel-control-next
 {
-    display: block;
-    text-align: center;
-    font-weight: bold;
+    border: 2px solid whitesmoke;
+}
+
+.carousel-caption
+{
+    font-size: 5000px;
+}
+
+#backToTheTop
+{
     font-size: 1.5em;
 }
 
